@@ -1,46 +1,24 @@
 {
-  "name": "solidity-examples",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "repository": "https://github.com/yuichiroaoki/solidity-examples.git",
-  "author": "yuichiroaoki",
-  "license": "MIT",
-  "scripts": {
-    "server": "nodemon src/index.ts",
-    "start": "node dist/index.js",
-    "test": "jest",
-    "build": "tsc",
-    "postinstall": "husky install",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
-  },
-  "devDependencies": {
-    "@types/jest": "latest",
-    "@uniswap/sdk-core": "^3.0.1",
-    "@uniswap/v3-sdk": "^3.8.1",
-    "husky": "latest",
-    "jest": "latest",
-    "lint-staged": "latest",
-    "nodemon": "latest",
-    "pinst": "latest",
-    "prettier": "latest",
-    "ts-jest": "latest"
-  },
-  "dependencies": {
-    "@openzeppelin/contracts": "latest",
-    "@types/node": "latest",
-    "axios": "latest",
-    "console-table-printer": "latest",
-    "dotenv": "latest",
-    "ethers": "^5.5.3",
-    "log4js": "^6.4.6",
-    "ts-node": "latest",
-    "typescript": "latest"
-  },
+  "name": "com.docker.devenvironments.code",
   "packageManager": "yarn@3.2.1",
-  "lint-staged": {
-    "*.{js,json,md,sol,ts}": [
-      "prettier --config .prettierrc.json --write --ignore-unknown"
-    ]
-  }
+  "description": "![test](https://github.com/yuichiroaoki/poly-flashloan-bot/actions/workflows/node.js.yaml/badge.svg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuichiroaoki/poly-flashloan-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuichiroaoki/poly-flashloan-bot/issues"
+  },
+  "homepage": "https://github.com/yuichiroaoki/poly-flashloan-bot#readme"
 }
